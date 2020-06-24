@@ -1,0 +1,47 @@
+Flow Rate
+Energy Flow Rate
+Velocity
+Fluid sound speed
+Positive accumulator
+Positive decimal fraction
+Negative accumulator
+Negative decimal fraction
+Positive energy accumulator
+Positive energy decimal fraction
+Negative energy accumulator
+Negative energy decimal fraction
+Net accumulator
+Net decimal fraction
+Net energy accumulator
+Net energy decimal fraction
+Temperature #1/inlet
+Temperature #2/outlet
+Analog input AI3
+Analog input AI4
+Analog input AI5
+Current input at AI3
+Current input at AI3
+Current input at AI3
+System password
+Password for hardware
+Calendar (date and time)
+Day+Hour for Auto-Save
+Key to input
+Go to Window #
+LCD Back-lit lights for number ofseconds
+Times for the beeper
+Pulses left for OCT
+Error Code
+PT100 resistance of inlet
+PT100 resistance of outlet
+Total travel time
+Delta travel time
+Upstream travel time
+Downstream travel time
+Output current
+Working step and Signal Quality
+Upstream strength
+Downstream strength
+Language used in user interface
+The rate of the measured travel time by the calculated travel time.
+Reynolds number
