@@ -1,11 +1,11 @@
-
+import cors from 'cors'
 import express from 'express'
 import fs from 'fs'
 import convertTable from './calculate.js'
 
 const app = express()
 const port = 5000
-
+app.use(cors())
 //get js object, stringify to json and send to client
 app.get('/', (req, res) => {
     res.send(JSON.stringify(readFile("./raw.txt","./descriptions.txt",1)));
