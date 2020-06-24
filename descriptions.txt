@@ -1,7 +1,7 @@
-Flow Rate
-Energy Flow Rate
-Velocity
-Fluid sound speed
+Flow Rate (m3/h)
+Energy Flow Rate (GJ/h)
+Velocity (m/s)
+Fluid sound speed (m/s)
 Positive accumulator
 Positive decimal fraction
 Negative accumulator
@@ -14,31 +14,31 @@ Net accumulator
 Net decimal fraction
 Net energy accumulator
 Net energy decimal fraction
-Temperature #1/inlet
-Temperature #2/outlet
+Temperature #1/inlet (C)
+Temperature #2/outlet (C)
 Analog input AI3
 Analog input AI4
 Analog input AI5
-Current input at AI3
-Current input at AI3
-Current input at AI3
+Current input at AI3 (mA)
+Current input at AI3 (mA)
+Current input at AI3 (mA)
 System password
 Password for hardware
 Calendar (date and time)
 Day+Hour for Auto-Save
 Key to input
 Go to Window #
-LCD Back-lit lights for number ofseconds
+LCD Back-lit lights for number of seconds (seconds)
 Times for the beeper
 Pulses left for OCT
 Error Code
-PT100 resistance of inlet
-PT100 resistance of outlet
-Total travel time
-Delta travel time
-Upstream travel time
-Downstream travel time
-Output current
+PT100 resistance of inlet (Ohm)
+PT100 resistance of outlet (Ohm)
+Total travel time (Micro-second)
+Delta travel time (Nino-second)
+Upstream travel time (Micro-second)
+Downstream travel time (Micro-second)
+Output current (mA)
 Working step and Signal Quality
 Upstream strength
 Downstream strength
