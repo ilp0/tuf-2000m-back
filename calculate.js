@@ -27,11 +27,17 @@ export default function convertTable(arr) {
                     arr.splice(i+1,1);
                 }
                 break;
+            case "INTEGER": 
+                let t = parseInt(parseInt(obj[2],16).toString(2).slice(0,4),2).toString(10)
+                arr[i][2] = t.concat (", ", parseInt(parseInt(obj[2],16).toString(2).slice(-6),2).toString(10));
+                break;
+
         }
     }
     });
     return arr
 }
+
 
 // help from stack overflow for converting real4 to float value https://stackoverflow.com/questions/59854184/hex-to-float-mid-little-endian-cdab-hex-to-uint32-big-endian-abcd
 function real4toFloat(str) {
