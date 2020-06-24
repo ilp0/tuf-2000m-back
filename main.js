@@ -5,16 +5,17 @@ import { match } from 'assert'
 const app = express()
 const port = 5000
 
-//get js object
+//get js object, stringify to json and send to client
 app.get('/', (req, res) => res.send(JSON.stringify(readFile("./raw.txt","./descriptions.txt",1))));
 
-//get raw text
+//get raw text and send to client
 app.get('/raw', (req, res) => {
     console.log("read raw")
     let raw = readFile("./raw.txt", "./descriptions.txt", 0);
     return res.send(raw);
 });
 
+// read given files and return either a string or an array
 // option variable
 // 0 = string
 // 1 = array
