@@ -1,0 +1,603 @@
+[
+    "2017-01-11 19:12",
+    [
+        "REAL4",
+        "1",
+        "7579",
+        "Flow Rate"
+    ],
+    [
+        "REAL4",
+        "2",
+        "48988",
+        "Flow Rate"
+    ],
+    [
+        "REAL4",
+        "3",
+        "5064",
+        "Energy Flow Rate"
+    ],
+    [
+        "REAL4",
+        "4",
+        "48142",
+        "Energy Flow Rate"
+    ],
+    [
+        "REAL4",
+        "5",
+        "37967",
+        "Velocity"
+    ],
+    [
+        "REAL4",
+        "6",
+        "48877",
+        "Velocity"
+    ],
+    [
+        "REAL4",
+        "7",
+        "63814",
+        "Fluid sound speed"
+    ],
+    [
+        "REAL4",
+        "8",
+        "17575",
+        "Fluid sound speed"
+    ],
+    [
+        "LONG",
+        "9",
+        "0",
+        "Positive accumulator"
+    ],
+    [
+        "LONG",
+        "10",
+        "0",
+        "Positive accumulator"
+    ],
+    [
+        "REAL4",
+        "11",
+        "24224",
+        "Positive decimal fraction"
+    ],
+    [
+        "REAL4",
+        "12",
+        "15965",
+        "Positive decimal fraction"
+    ],
+    [
+        "LONG",
+        "13",
+        "0",
+        "Negative accumulator"
+    ],
+    [
+        "LONG",
+        "14",
+        "0",
+        "Negative accumulator"
+    ],
+    [
+        "REAL4",
+        "15",
+        "0",
+        "Negative decimal fraction"
+    ],
+    [
+        "REAL4",
+        "16",
+        "0",
+        "Negative decimal fraction"
+    ],
+    [
+        "LONG",
+        "17",
+        "87",
+        "Positive energy accumulator"
+    ],
+    [
+        "LONG",
+        "18",
+        "0",
+        "Positive energy accumulator"
+    ],
+    [
+        "REAL4",
+        "19",
+        "9891",
+        "Positive energy decimal fraction"
+    ],
+    [
+        "REAL4",
+        "20",
+        "16221",
+        "Positive energy decimal fraction"
+    ],
+    [
+        "LONG",
+        "21",
+        "65480",
+        "Negative energy accumulator"
+    ],
+    [
+        "LONG",
+        "22",
+        "65535",
+        "Negative energy accumulator"
+    ],
+    [
+        "REAL4",
+        "23",
+        "39041",
+        "Negative energy decimal fraction"
+    ],
+    [
+        "REAL4",
+        "24",
+        "48994",
+        "Negative energy decimal fraction"
+    ],
+    [
+        "LONG",
+        "25",
+        "0",
+        "Net accumulator"
+    ],
+    [
+        "LONG",
+        "26",
+        "0",
+        "Net accumulator"
+    ],
+    [
+        "REAL4",
+        "27",
+        "0",
+        "Net decimal fraction"
+    ],
+    [
+        "REAL4",
+        "28",
+        "0",
+        "Net decimal fraction"
+    ],
+    [
+        "LONG",
+        "29",
+        "144",
+        "Net energy accumulator"
+    ],
+    [
+        "LONG",
+        "30",
+        "0",
+        "Net energy accumulator"
+    ],
+    [
+        "REAL4",
+        "31",
+        "48777",
+        "Net energy decimal fraction"
+    ],
+    [
+        "REAL4",
+        "32",
+        "16191",
+        "Net energy decimal fraction"
+    ],
+    [
+        "REAL4",
+        "33",
+        "15568",
+        "Temperature #1/inlet"
+    ],
+    [
+        "REAL4",
+        "34",
+        "16611",
+        "Temperature #1/inlet"
+    ],
+    [
+        "REAL4",
+        "35",
+        "28424",
+        "Temperature #2/outlet"
+    ],
+    [
+        "REAL4",
+        "36",
+        "16534",
+        "Temperature #2/outlet"
+    ],
+    [
+        "REAL4",
+        "37",
+        "7424",
+        "Analog input AI3"
+    ],
+    [
+        "REAL4",
+        "38",
+        "15783",
+        "Analog input AI3"
+    ],
+    [
+        "REAL4",
+        "39",
+        "14592",
+        "Analog input AI4"
+    ],
+    [
+        "REAL4",
+        "40",
+        "15758",
+        "Analog input AI4"
+    ],
+    [
+        "REAL4",
+        "41",
+        "5461",
+        "Analog input AI5"
+    ],
+    [
+        "REAL4",
+        "42",
+        "49087",
+        "Analog input AI5"
+    ],
+    [
+        "REAL4",
+        "43",
+        "45184",
+        "Current input at AI3"
+    ],
+    [
+        "REAL4",
+        "44",
+        "15493",
+        "Current input at AI3"
+    ],
+    [
+        "REAL4",
+        "45",
+        "36608",
+        "Current input at AI3"
+    ],
+    [
+        "REAL4",
+        "46",
+        "15459",
+        "Current input at AI3"
+    ],
+    [
+        "REAL4",
+        "47",
+        "29184",
+        "Current input at AI3"
+    ],
+    [
+        "REAL4",
+        "48",
+        "15516",
+        "Current input at AI3"
+    ],
+    [
+        "BCD",
+        "49",
+        "0",
+        "System password"
+    ],
+    [
+        "BCD",
+        "50",
+        "0",
+        "System password"
+    ],
+    [
+        "BCD",
+        "51",
+        "0",
+        "Password for hardware"
+    ],
+    [
+        "BCD",
+        "52",
+        "0",
+        ""
+    ],
+    [
+        "BCD",
+        "53",
+        "6432",
+        "Calendar (date and time)"
+    ],
+    [
+        "BCD",
+        "54",
+        "4386",
+        "Calendar (date and time)"
+    ],
+    [
+        "BCD",
+        "55",
+        "5889",
+        "Calendar (date and time)"
+    ],
+    [
+        "BCD",
+        "56",
+        "0",
+        "Day+Hour for Auto-Save"
+    ],
+    [
+        "0",
+        "57",
+        "0",
+        ""
+    ],
+    [
+        "0",
+        "58",
+        "0",
+        ""
+    ],
+    [
+        "INTEGER",
+        "59",
+        "0",
+        "Key to input"
+    ],
+    [
+        "INTEGER",
+        "60",
+        "255",
+        "Go to Window #"
+    ],
+    [
+        "INTEGER",
+        "61",
+        "120",
+        "LCD Back-lit lights for number ofseconds"
+    ],
+    [
+        "0",
+        "62",
+        "0",
+        "Times for the beeper"
+    ],
+    [
+        "0",
+        "63",
+        "0",
+        ""
+    ],
+    [
+        "0",
+        "64",
+        "0",
+        ""
+    ],
+    [
+        "0",
+        "65",
+        "0",
+        ""
+    ],
+    [
+        "0",
+        "66",
+        "4001",
+        ""
+    ],
+    [
+        "0",
+        "67",
+        "62500",
+        ""
+    ],
+    [
+        "0",
+        "68",
+        "0",
+        ""
+    ],
+    [
+        "0",
+        "69",
+        "0",
+        ""
+    ],
+    [
+        "0",
+        "70",
+        "3",
+        ""
+    ],
+    [
+        "0",
+        "71",
+        "4",
+        ""
+    ],
+    [
+        "BIT",
+        "72",
+        "4",
+        "Error Code"
+    ],
+    [
+        "0",
+        "73",
+        "3606",
+        ""
+    ],
+    [
+        "0",
+        "74",
+        "16800",
+        ""
+    ],
+    [
+        "0",
+        "75",
+        "54913",
+        ""
+    ],
+    [
+        "0",
+        "76",
+        "48896",
+        ""
+    ],
+    [
+        "REAL4",
+        "77",
+        "35706",
+        "PT100 resistance of inlet"
+    ],
+    [
+        "REAL4",
+        "78",
+        "17101",
+        "PT100 resistance of inlet"
+    ],
+    [
+        "REAL4",
+        "79",
+        "44042",
+        "PT100 resistance of outlet"
+    ],
+    [
+        "REAL4",
+        "80",
+        "17099",
+        "PT100 resistance of outlet"
+    ],
+    [
+        "REAL4",
+        "81",
+        "33339",
+        "Total travel time"
+    ],
+    [
+        "REAL4",
+        "82",
+        "16963",
+        "Total travel time"
+    ],
+    [
+        "REAL4",
+        "83",
+        "42500",
+        "Delta travel time"
+    ],
+    [
+        "REAL4",
+        "84",
+        "49530",
+        "Delta travel time"
+    ],
+    [
+        "REAL4",
+        "85",
+        "33468",
+        "Upstream travel time"
+    ],
+    [
+        "REAL4",
+        "86",
+        "16963",
+        "Upstream travel time"
+    ],
+    [
+        "REAL4",
+        "87",
+        "33210",
+        "Downstream travel time"
+    ],
+    [
+        "REAL4",
+        "88",
+        "16963",
+        "Downstream travel time"
+    ],
+    [
+        "REAL4",
+        "89",
+        "2885",
+        "Output current"
+    ],
+    [
+        "REAL4",
+        "90",
+        "16512",
+        "Output current"
+    ],
+    [
+        "0",
+        "91",
+        "0",
+        ""
+    ],
+    [
+        "INTEGER",
+        "92",
+        "806",
+        "Working step and Signal Quality"
+    ],
+    [
+        "INTEGER",
+        "93",
+        "3501",
+        "Upstream strength"
+    ],
+    [
+        "INTEGER",
+        "94",
+        "3501",
+        "Downstream strength"
+    ],
+    [
+        "0",
+        "95",
+        "0",
+        ""
+    ],
+    [
+        "INTEGER",
+        "96",
+        "1",
+        "Language used in user interface"
+    ],
+    [
+        "REAL4",
+        "97",
+        "43137",
+        "The rate of the measured travel time by the calculated travel time."
+    ],
+    [
+        "REAL4",
+        "98",
+        "17105",
+        "The rate of the measured travel time by the calculated travel time."
+    ],
+    [
+        "REAL4",
+        "99",
+        "3374",
+        "Reynolds number"
+    ],
+    [
+        "REAL4",
+        "100",
+        "17839",
+        "Reynolds number"
+    ]
+]
