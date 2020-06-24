@@ -40,8 +40,10 @@ function readFile(f, df, option = 0) {
             else {
                 //split value by : separator
                 a = val.split(":")
-                //0-50 are easy, two apart
+                //assign description for register number
+                //0-50 are easy
                 if(a[0] <= 50) a.push(tempDescArray[Math.round(a[0] / 2)-1])
+                //rest is manual labor
                 else if (a[0] == 51) a.push(tempDescArray[25])
                 else if (a[0] >= 53 && a[0] <= 55 ) a.push(tempDescArray[26])
                 else if (a[0] == 56) a.push(tempDescArray[27])
