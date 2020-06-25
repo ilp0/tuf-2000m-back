@@ -72,7 +72,7 @@ function readFile(f, df, option = 0) {
                 else if (a[1] == 98) a.push(tempDescArray[45])
                 else if (a[1] == 99) a.push(tempDescArray[46])
                 else if (a[1] == 100) a.push(tempDescArray[46])
-                else a.push('');
+                else a.push('Unknown');
                 
             }
             finalArray.push(a);
