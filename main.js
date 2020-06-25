@@ -8,6 +8,7 @@ const port = 5000
 app.use(cors())
 //get js object, stringify to json and send to client
 app.get('/', (req, res) => {
+    //calculations are run every time the api is fetched.
     res.send(JSON.stringify(readFile("./raw.txt","./descriptions.txt",1)));
 })
 
@@ -49,6 +50,7 @@ function readFile(f, df, option = 0) {
                 //0-50 are easy
                 if(a[1] <= 50) a.push(tempDescArray[Math.round(a[1] / 2)-1])
                 //rest is manual labor
+                //using elseif instead of switch for more readable and compact code.
                 else if (a[1] == 51) a.push(tempDescArray[25])
                 else if (a[1] >= 53 && a[1] <= 55 ) a.push(tempDescArray[26])
                 else if (a[1] == 56) a.push(tempDescArray[27])
@@ -77,6 +79,7 @@ function readFile(f, df, option = 0) {
             }
             finalArray.push(a);
         });
+        //run main function in calculate.js
         finalArray = convertTable(finalArray);
         return finalArray;
     }
